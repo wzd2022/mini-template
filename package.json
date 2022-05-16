@@ -1,0 +1,23 @@
+{
+  "name": "@wzd1997/mini-cli",
+  "version": "1.0.0",
+  "description": "创建微信小程序的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "inits": "node ./build/bin/www.js inits"
+  },
+  "author": "wangzhidong",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.4",
+    "ora": "^4.0.3"
+  }
+}

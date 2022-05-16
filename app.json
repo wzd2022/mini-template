@@ -3,8 +3,6 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "subPackages": [
-  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -12,5 +10,18 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "subPackages": [
+    {
+      "root": "subPackages/account",
+      "name": "account",
+      "pages": [
+        "pages/index2/index",
+        "pages/index3/index",
+        "pages/index3/inde1x",
+        "pages/index3/inde112"
+      ],
+      "independent": false
+    }
+  ]
 }
